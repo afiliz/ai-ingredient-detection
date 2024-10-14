@@ -36,13 +36,13 @@ export default function Home() {
                       className="w-full h-auto rounded-lg mb-2"
                     />
                     <p>This is an example of a good picture of food and ingredients (inside a fridge). Your image should look similar to this.</p>
-                    <p>If you get the error "Error: No food or ingredients found.", try reuploading your image.</p>
+                    <p>If you get the error &#x0022;Error: No food or ingredients found.&#x0022;, try re-uploading your image.</p>
                   </div>
                 )}
               </div>
             </div>
             <div className="text-blue-600">
-              Upload a photo of your foods and/or ingredients, and we'll detect them and generate some recipes!
+              Upload a photo of your foods and/or ingredients, and we will detect them and generate some recipes!
             </div>
           </div>
         </div>
