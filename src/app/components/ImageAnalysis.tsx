@@ -43,7 +43,7 @@ const foodListToJSX = (input: string): JSX.Element[] => {
 
   return foodItems.map((item, index) => (
     <div key={index}>
-      <span className="font-bold capitalize">{item.food}</span>: {item.value}
+      <span className="text-black font-bold capitalize">{item.food}</span>: {item.value}
     </div>
   ));
 };
@@ -66,8 +66,8 @@ const recipeListToJSX = (input: string): JSX.Element[] => {
   // Generate JSX for each recipe
   return recipes.map((recipe, index) => (
     <div key={index} className="recipe mb-4">
-      <h2><strong>{recipe.name}</strong></h2>
-      <p>{recipe.description}</p>
+      <h2 className="text-black font-bold">{recipe.name}</h2>
+      <p className="text-black">{recipe.description}</p>
     </div>
   ));
 };

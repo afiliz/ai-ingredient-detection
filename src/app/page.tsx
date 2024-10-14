@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen bg-gradient-to-b from-blue-100 to-green-100 flex-col items-center">
-      <div className="max-w-2xl mx-auto bg-white p-8 mt-10 rounded-xl shadow-lg relative z-10">
+      <div className="max-w-2xl mx-auto bg-white p-8 md:mt-10 md:rounded-xl shadow-lg relative z-10">
         <h1 className="text-4xl font-bold mb-4 text-center text-blue-600">
           Food Ingredient Detector 🕵️‍♂️🍽️
         </h1>
